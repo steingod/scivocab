@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <!-- 
+    Prepared by Øystein Godøy, METNO/FOU, 2013-11-29 
+
+    Definitions are copied from EUM/OPS/TEN/13/689034.
+    -->
+  <skos:Collection about="https://wiki.met.no/metamod/vocabularies/Operational_Status">
+      <skos:prefLabel xml:lang="en">EUMETSAT Categories</skos:prefLabel>
+      <skos:definition xml:lang="en">
+          Define the purpose of this vocabulary!!
+      </skos:definition>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Aerosol</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  Suspension of fine solid particles or liquid droplets in
+                  a gas, e.g smog, smoke and dust.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Analysis</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  Analysis is the best description we get for the
+                  atmosphere from running/operating a model. It is used
+                  too as a hindsight tool to test or calibrate other data
+                  sources.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Atmosphere</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  Products related to atmospheric conditions and
+                  chemistry.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Atmospheric conditions</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  Products related to atmospheric conditions and
+                  chemistry.
+
+                  INSPIRE default entry.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Calibration</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  Define the meaning of this keyword!
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Cloud</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  Products identifying the various cloud types and cloud
+                  conditions.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Fire</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                 Products used for the detection/monitoring of fire and
+                 measuring radiant heat output from fires.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Forecasts</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  A statement of prediction.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Humidity</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  Products measuring water vapour content within the
+                  atmosphere.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Land</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  Products related to land, land-atmosphere interactions,
+                  and biospheric applications.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Level 1 Data</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  • Level 0: Raw data after restoration of the chronological
+                  data sequence for each instrument, i.e. after
+                  demultiplexing of the data by instrument, removal of any
+                  data overlap due to the data dump procedure and relevant
+                  quality checks. Raw instrument data information
+                  (telemetry packets) is maintained during this process.
+                  • Level 1a: Instrument data in full resolution with
+                  radiometric and geometric (i.e. Earth location)
+                  calibration computed and appended but not applied.
+                  • Level 1b: Calibrated, Earth located and quality
+                  controlled product, in the original pixel location, and
+                  packaged with needed ancillary, engineering and
+                  auxiliary data.
+                  • Level 1c: In case of the IASI spectra, level 1b data
+                  after application of the apodization function.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Lightning</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  Define the meaning of this keyword!
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Marine</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  Products related to the ocean state, topography and
+                  interaction of the ocean with the atmosphere.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Model</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  Model is an algorithm implemented in powerful computers
+                  to generate a forecast for the next days out of our
+                  current knowledge of the atmospheric state. Model is
+                  frequently used for short instead of model forecast, as
+                  in “the model gives precipitation in Germany tomorrow”.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Observation</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  In-situ (non-satellite) based measurement.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Ozone</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  Define the meaning of this keyword!
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Precipitation</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  Rain, sleet, hail, snow and other forms of water falling
+                  from the sky.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Pressure</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                 Products related to the measurement of atmospheric
+                 pressure.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Radar Backscatter NRCS</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  Normalized radar cross section of the sea for
+                  backscatter.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Radiation</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                 Products related to atmospheric and Earth radiation
+                 measurement. 
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Sea Ice</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  Products related to sea ice extent, type, thickness.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Sea Surface Temperature</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  Measurement of ocean temperature.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Snow and Ice</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  Products related to snow and ice on land or in the
+                  atmosphere.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Soil Moisture</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  Water contained in the upper part of the soil mantle.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Temperature</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  The measure of the internal energy that a substance
+                  contains. This is the most measured quantity in the
+                  atmosphere.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Vegetation</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  Products related to vegetation coverage; structural
+                  property of a plant canopy and plant energy absorption
+                  capacity.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Wave</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                 Products measuring ocean wave height. 
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Wind</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                 Products measuring wind speed and/or direction.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+  </skos:Collection>
+</rdf:RDF>

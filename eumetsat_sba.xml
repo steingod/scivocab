@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <!-- 
+    Prepared by Øystein Godøy, METNO/FOU, 2013-11-29 
+
+    Definitions are copied from EUM/OPS/TEN/13/689034.
+
+    Mapping to ISO19115 topic categories should be added in time.
+    -->
+  <skos:Collection rdf:about="https://wiki.met.no/metamod/vocabularies/Operational_Status">
+      <skos:prefLabel xml:lang="en">EUMETSAT Societal Benefit Area</skos:prefLabel>
+      <skos:definition xml:lang="en">
+          This vocabulary is used by EUMETSAT to tag datasets within the
+          EUMETSAT Product Navigator. The EUMETSAT Societal Benefit Area
+          share some features with ISO 19115 Topic Categories, but are
+          still slightly different. They describe the type of activity
+          where a particular dataset is supposed to be valuable.
+          Activities can be scientific, but not necessarily. 
+      </skos:definition>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Agriculture</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  Food supplies depend on trends in the natural
+                  environment, including weather and climate, freshwater
+                  supplies, soil moisture and other variables. Within the
+                  Agriculture SBA there is access to data resources
+                  covering areas such as land cover, land use, crop,
+                  global farming system, food security.
+
+                  This could relate to ISO topic categories farming and
+                  biota.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Biodiversity</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  Biological diversity encompasses all of the Earth's
+                  plants, animals and micro-organisms; the genetic
+                  variation within each species; and the diverse
+                  ecosystems in which living things form communities and
+                  interact with one another and with the air, water, and
+                  soil around them.
+
+                  This could be related to ISO topic categories farming
+                  and biota. 
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Climate</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  Global and regional resources to help in the
+                  understanding and evaluation of key indicators that
+                  define how our climate is changing.
+
+                  This could relate to ISO topic categories
+                  geoscientificInformation, oceans and
+                  climatologyMeteorologyAtmosphere.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Disasters</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  When disaster strikes, rapid access to data on land and
+                  ocean conditions, maps of transport links and hospitals,
+                  weather forecasts, and information on socio-economic
+                  variables can save uncounted lives. Within the Disasters
+                  SBA there are resources linked to emergency response,
+                  disaster warning, relief mobilization and tele-medicinal
+                  support, post-disaster damage assessment,
+                  reconstruction, and rehabilitation.
+
+                  This could relate to ISO topic category environment.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Ecosystems</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  Terrestrial, coastal and marine ecosystems provide
+                  essential socio-economic and environmental benefits.
+                  Ecosystems the world over, however, are under tremendous
+                  stress from rapid land-use change, pollution and the
+                  overexploitation of natural resources.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Energy</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  Data sets to help governments and companies manager
+                  energy resources more effectively.
+
+                  This could be related to ISO Topic category
+                  utilitiesCommunication.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Health</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  A comprehensive series of data sets that support
+                  prevention, early warning, research, health-care
+                  planning and delivery, and public alerts.
+
+                  This is directly related to the ISO topic category
+                  health.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Water</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  Datasets that reflect the many different ways in which
+                  water plays a key role in many areas of the global
+                  ecosysytem.
+
+                  This is related to ISO topic categories oceans,
+                  inlandWaters and geoscientificInformation.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+      <skos:member>
+          <skos:Concept>
+              <skos:prefLabel xml:lang="en">Weather</skos:prefLabel>
+              <skos:altLabel xml:lang="en"/>
+              <skos:definition xml:lang="en">
+                  Real-time resources providing access to global weather
+                  data and archival information.
+
+                  This is related to ISO topic categories
+                  climatologyMeteorologyAtmosphere.
+              </skos:definition>
+          </skos:Concept>
+      </skos:member>
+  </skos:Collection>
+</rdf:RDF>
