@@ -1,9 +1,17 @@
 ###########################################################
-scivocab
+Scientific Vocabularies (scivocab)
 ###########################################################
-$Id$
 
-PURPOSE
 The purpose of this repository is to generate geoscientific controlled
 vocabularies that are useful for distributed data management within
-meteorology and oceanography.
+meteorology and oceanography. Some vocabularies exist, but are not
+available in machine readable form. These are then implemented in XML
+(preferably in SKOS). 
+
+It is the plan to implement linkages between vocabularies as well.
+
+Useful vocabularies that are available in SKOS at other locations are
+Global Change Master Directory keywords and Climate and Forecast standard
+names. These are not included here.
+
+Øystein Godøy, METNO/FOU, 2013-11-29 
